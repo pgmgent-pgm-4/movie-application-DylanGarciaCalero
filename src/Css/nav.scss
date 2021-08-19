@@ -1,0 +1,53 @@
+.App__Nav {
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.575);
+  }
+  .App__NavList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 40rem;
+    height: 3rem;
+    margin-right: 2rem;
+    li {
+        margin: 0.5rem 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover {
+            border-bottom: solid 0.1rem white;
+        }
+        .nav__user {
+            color: white;
+            font-size: 0.9rem;
+        }
+        button {
+            border: none;
+            padding: 0.5rem;
+            &:hover {
+                background-color: black;
+                color: white;
+                border: solid 0.1rem white;
+            }
+        }
+    }
+    .nav__seperation {
+        color: white;
+    }
+    img {
+        width: 1.75rem;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+    }
+  }

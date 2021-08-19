@@ -1,0 +1,108 @@
+.detail__container {
+  max-width: 80rem;
+  margin: 0 auto;
+  h2,
+  h3 {
+    color: white;
+  }
+  .selectedmovie__container {
+    background-color: rgba(0, 0, 0, 0.363);
+    width: 100%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: row;
+    img {
+      width: 40%
+    }
+    .selectedmovie__details {
+      h2 {
+        text-align: center;
+        padding-bottom: 1rem;
+        max-width: 80%;
+        margin: 1rem auto;
+        border-bottom: solid black 0.2rem;
+      }
+      width: 60%;
+      .selectedmovie__genres {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        color: white;
+        height: 3.5rem;
+        li {
+            padding: 1rem;
+            background-color: black;
+            border-radius: 0.5rem;
+            &:hover {
+              background-color: white;
+              color: black;
+            }
+        }
+        p {
+            color: white;
+            padding: 1rem;
+            font-size: 2rem;
+        }
+      }
+      .selectedmovie__synopsis {
+        padding: 1rem;
+        max-width: 80%;
+        margin: 0 auto;
+        p {
+          color: white;
+        }
+      }
+      .selectedmovie__production {
+        max-width: 80%;
+        margin: 0 auto;
+        list-style: none;
+        li {
+          color: white;
+        }
+      }
+      .selectedmovie__votes {
+        p {
+          color: white;
+          max-width: 80%;
+          margin: 0 auto;
+          text-align: right;
+        }
+      }
+      .details__wishlist {
+        text-align: center;
+        margin-top: 3rem;
+        .login__wishlist {
+          padding: 1rem;
+          background-color: black;
+          width: 10rem;
+          margin: 0 auto;
+          &:hover {
+            background-color: white;
+            & a {
+              color: black;
+            }
+          }
+          a {
+            text-decoration: none;
+            color: white;
+          }
+        }
+        button {
+          border: none;
+          height: 3rem;
+          padding: 1rem;
+          &:hover {
+            background-color: black;
+            color: white;
+            border: white solid 0.1rem;
+          }
+        }
+      }
+    }
+  }
+}
