@@ -15,6 +15,7 @@ const Home = () => {
         <>
             <Header/>
             <SearchMovies title="Search" apiUrl={api_requests.fetchSearchedMovies}/>
+            <MovieList title="Latest Trailers" apiUrl={api_requests.fetchUpcomingMovies}/>
             <MovieList title="Popular" apiUrl={api_requests.fetchPopularMovies}/>
             <MovieList title="Trending" apiUrl={api_requests.fetchTrendingMovies}/>
             <Footer/>

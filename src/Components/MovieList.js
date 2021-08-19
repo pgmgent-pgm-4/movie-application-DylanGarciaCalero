@@ -7,7 +7,7 @@ const image_baseurl = "https://image.tmdb.org/t/p/w500";
 
 // OUR MOVIE RETRIEVING COMPONENT
 
-function MovieList({ title, apiUrl }) {
+const MovieList = ({ title, apiUrl }) => {
     const [movies, setMovies] = useState([]);
 
     useEffect(() => {
